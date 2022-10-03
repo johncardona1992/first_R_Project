@@ -65,3 +65,19 @@ df<-data.frame(nombre = c("a","b","c"), edad = c(23,34,32))
 df
 nrow(df)
 ncol(df)
+
+# subsetting
+x<-1:10
+x[1]
+x[1:5]
+u<-x>5
+u
+x[u]
+
+# subsetting lists
+x<-list(foo=c(1,2,3,4), bar=0.6)
+x
+x[1]
+x[[1]]
+x$bar
+x$foo
